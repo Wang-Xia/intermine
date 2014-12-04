@@ -16,12 +16,12 @@ The tests are normally run as part of the CI test suite. They can also be run
 locally, and of course should be when new tests are added or changes are made to
 existing tests.
 
-.. code-block:: bash
-    
-    virtualenv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-    nosetests
+```bash    
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+nosetests
+```
 
 Required Environment Variables
 ---------------------

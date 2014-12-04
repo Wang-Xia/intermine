@@ -3,7 +3,7 @@ from test.browsertestcase import BrowserTestCase
 
 DEFAULT_BASE = 'http://localhost:8080/intermine-demo'
 
-base_url = os.getenv('TESTMODEL_BASE', DEFAULT_BASE)
+base_url = os.getenv('TESTMODEL_URL', DEFAULT_BASE)
 
 class TestModelTestCase(BrowserTestCase):
 
